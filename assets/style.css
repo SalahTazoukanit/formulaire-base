@@ -1,0 +1,17 @@
+form{
+    display: flex;
+    justify-content: center;    
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    
+}
+input{
+    width: 350px;
+}
+.submit{
+    margin-top: 15px;
+    width: 150px;
+}
