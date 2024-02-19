@@ -1,17 +1,31 @@
 form{
     display: flex;
-    justify-content: center;    
+    flex-direction: column;
+    align-items: center;
 }
 fieldset{
     display: flex;
     flex-direction: column;
-    width: 550px;
-    
+    width: 700px;
+    gap: 2em; 
+    border-radius: 5px; 
 }
 input{
-    width: 350px;
+    width: 200px;
+    height: 15px;
 }
 .submit{
     margin-top: 15px;
     width: 150px;
+    height: 30px;
+   
+}
+select{
+    width: 150px;
+}
+.inputVide{
+    background-color: rgb(235, 165, 165);
+}
+.inputBon{
+    background-color: rgb(121, 207, 121);
 }
