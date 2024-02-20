@@ -6,9 +6,10 @@ form{
 fieldset{
     display: flex;
     flex-direction: column;
-    width: 700px;
-    gap: 2em; 
+    align-items: center;
+    width: 350px;
     border-radius: 5px; 
+    padding-bottom:15px;
 }
 input{
     width: 200px;
@@ -21,11 +22,12 @@ input{
    
 }
 select{
-    width: 150px;
+    width: 200px;
 }
 .inputVide{
     background-color: rgb(235, 165, 165);
 }
-.inputBon{
-    background-color: rgb(121, 207, 121);
+span{
+    color: red;
+    font-size: small;
 }

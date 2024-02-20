@@ -29,27 +29,19 @@
     <form action="">
         <fieldset>
             <legend><h2>Formulaire</h2></legend>
-            <div>
-                <label for="">Prénom :  </label><input class="text" id="prenom" type="text" required><span id="prenomSpan"></span>
-                <label for="">Nom :  </label><input class="text" id="nom" type="text" required><span id=""></span>
-            </div>
-            <div> 
-                <label for="">Age :  </label><input id="age" type="number" required>
+            
+                <label for="">Prénom :  </label><input class="text" id="prenom" type="text" ><span id="prenomError"></span>
+                <label for="">Nom :  </label><input class="text" id="nom" type="text" ><span id="nomError"></span>
+                <label for="">Age :  </label><input id="age" type="number"><span id="ageError"></span>
                 <label for="">Sexe :  </label>
                 <select name="" id="sexe">
                     <option value="">Homme</option>
                     <option value="">Femme</option>
                 </select>
-            </div>
-            <div>    
-                <label for="">Adresse Mail :  </label><input id="mail" type="email" required><span id=""></span>
-                <label for="">Adresse postal :  </label><input id="adressePostale" type="text" required><span id=""></span>
-            </div>
-            <div>    
-                <label for="">Code postal :  </label><input id="codPostale" type="text" required><span id=""></span>
-                <label for="">Ville :  </label><input class="text" id="ville" type="text" required><span id=""></span>
-            </div>
-            <div>    
+                <label for="">Adresse Mail :  </label><input id="mail" type="email" ><span id="mailError"></span>
+                <label for="">Adresse postal :  </label><input id="adressePostale" type="text" ><span id="adressePostalError"></span>
+                <label for="">Code postal :  </label><input id="codPostale" type="text" ><span id="codePostaleError"></span>
+                <label for="">Ville :  </label><input class="text" id="ville" type="text" ><span id="villeError"></span>
                 <label for="">Métier exercé :  </label>
                 <select id="metier" name="" required>
                     <option value="">Agriculteur</option>
@@ -58,7 +50,6 @@
                     <option value="">Medicin</option>
                     <option value="">Ouvrier</option>
                     <option value="" selected>Développeur web</option>
-                    
                 </select>
                 <label for="">Nationalité :  </label> 
                 <select id="nationalité" required>
@@ -68,25 +59,13 @@
                     <option value=""selected>Espagnole</option>
                     <option value="">Anglaise</option>
                 </select>
-            </div>
-            <div>     
-                <label for="">Date de naissance :  </label><input id="dateNaissance" type="date" required>
-                <label for="">Pays de naissance :  </label><input class="text" id="pays" type="text" required><span id=""></span>
-            </div>
-            <div>   
-                <label for="">Numéro de sécurité social :  </label><input id="nss" type="text" required><span id=""></span>
-            </div> 
-            <div>    
-                <label for="">Numéro du passeport :  </label><input id="passport" type="text" required><span id=""></span>
-            </div>
-            
-            <div>    
-                <label for="">Date de délivrance du passeport :  </label><input id="passportDeliv" type="date" required></div>
-            <div>   
-                <label for="">Date de validité du passeport :  </label><input id="passportValidité" type="date" required>
-            </div>
-            
-       
+                <label for="">Date de naissance :  </label><input id="dateNaissance" type="date" ><span id="dateNaissanceError"></span>
+                <label for="">Pays de naissance :  </label><input class="text" id="pays" type="text" ><span id="paysError"></span>
+                <label for="">Numéro de sécurité social :  </label><input id="nss" type="text" ><span id="nssError"></span>
+                <label for="">Numéro du passeport :  </label><input id="passport" type="text" ><span id="nPassportError"></span>
+                <label for="">Date de délivrance du passeport :  </label><input id="passportDeliv" type="date" ><span id="passportDelivError"></span>
+                <label for="">Date de validité du passeport :  </label><input id="passportValidité" type="date" required><span id="passportExpirationError"></span>
+        
         </fieldset>
         <div><input class="submit" type="submit"></div>
     </form> 
